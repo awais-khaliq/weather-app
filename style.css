@@ -8,30 +8,30 @@
 }
 
 :root {
-    --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font: 'Quicksand', -apple-system, BlinkMacSystemFont, sans-serif;
 
-    /* Dynamic palette — updated by JS based on weather */
-    --bg-start: #0f0c29;
-    --bg-mid: #302b63;
-    --bg-end: #24243e;
+    /* Dynamic palette — updated by JS based on weather, default to light sky */
+    --bg-start: #e0f2fe;
+    --bg-mid: #bae6fd;
+    --bg-end: #7dd3fc;
 
-    --glass-bg: rgba(255, 255, 255, 0.07);
-    --glass-border: rgba(255, 255, 255, 0.12);
-    --glass-hover: rgba(255, 255, 255, 0.13);
+    --glass-bg: rgba(255, 255, 255, 0.65);
+    --glass-border: rgba(255, 255, 255, 0.9);
+    --glass-hover: rgba(255, 255, 255, 0.85);
 
-    --text-primary: #ffffff;
-    --text-secondary: rgba(255, 255, 255, 0.65);
-    --text-muted: rgba(255, 255, 255, 0.4);
+    --text-primary: #0f172a;
+    --text-secondary: #334155;
+    --text-muted: #64748b;
 
-    --accent: #6c63ff;
-    --accent-glow: rgba(108, 99, 255, 0.35);
+    --accent: #0284c7;
+    --accent-glow: rgba(2, 132, 199, 0.15);
 
     --radius-sm: 12px;
     --radius-md: 18px;
     --radius-lg: 24px;
     --radius-xl: 32px;
 
-    --shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.08); /* Much softer shadow */
     --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
