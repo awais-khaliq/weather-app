@@ -1,45 +1,37 @@
-# ☁️ SkyPulse — Live Weather App
+# SkyPulse: Real-Time Weather Analysis Tool
 
-A beautiful, real-time weather application built with vanilla HTML, CSS & JavaScript, powered by [WeatherAPI](https://www.weatherapi.com/).
+A web-based meteorological application designed to provide comprehensive, real-time weather data and forecasts across global locations.
 
-![SkyPulse Preview](https://img.shields.io/badge/Status-Live-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue)
+## Overview
 
-## ✨ Features
+SkyPulse serves as a streamlined interface for environmental data retrieval, utilizing the WeatherAPI to supply users with live atmospheric conditions, hourly predictions, and multi-day outlooks. The application focuses on data clarity and visual fidelity, using a custom-built rendering engine that adapts the interface aesthetics based on the retrieved weather status.
 
-- 🔍 **City Search** — Search weather for any city worldwide
-- 🌡️ **Current Conditions** — Temperature, feels like, condition with icons
-- 📊 **6 Detail Cards** — Humidity, wind, pressure, visibility, UV index
-- ⏰ **24-Hour Forecast** — Hourly breakdown with rain probability
-- 📅 **3-Day Forecast** — Daily highs, lows, and conditions
-- 🌅 **Sun & Moon** — Sunrise, sunset, moonrise, moon phase
-- 🎨 **Dynamic Backgrounds** — Colors change based on weather (clear, rain, snow, thunder, mist)
-- ✨ **Premium UI** — Glassmorphism, floating particles, smooth animations
-- 📱 **Fully Responsive** — Works on all screen sizes
-- 🔑 **Secure** — API key stored locally, never shared
+## Core Features
 
-## 🚀 Getting Started
+* Global City Search: Instant access to meteorological data for any international locality.
+* Detailed Atmospheric Metrics: Real-time tracking of temperature, apparent temperature ("feels like"), humidity, barometric pressure, UV index, and visibility.
+* Short-Term Forecasting: A granular 24-hour breakdown including precipitation probabilities and temperature fluctuations.
+* Long-Term Outlook: A 3-day overview highlighting expected daily extremes and condition trends.
+* Astronomical Data: Accurate calculations for sunrise, sunset, and lunar phases.
+* Adaptive Environment Engine: A dynamic CSS background system that adjusts color palettes and particle effects in response to specific weather states (Rain, Snow, Thunder, etc.).
+* Responsive Design: Optimized for both desktop and mobile viewports with a focus on dark-mode glassmorphism.
 
-1. Get a free API key from [weatherapi.com](https://www.weatherapi.com/signup.aspx)
-2. Open the app and paste your API key
-3. Search any city and enjoy!
+## Technical Implementation
 
-## 🛠️ Tech Stack
+* Frontend: Semantic HTML5 and Vanilla JavaScript (ES6+).
+* Styling: Advanced CSS3 utilizing custom properties (CSS variables), Flexbox/Grid layouts, and hardware-accelerated animations.
+* Data Persistence: LocalStorage integration for API key management and session state.
+* API Integration: Asynchronous Fetch API calls to WeatherAPI for JSON data parsing.
 
-- **HTML5** — Semantic structure
-- **CSS3** — Custom properties, glassmorphism, CSS animations
-- **JavaScript** — Fetch API, DOM manipulation, localStorage
-- **WeatherAPI** — Real-time weather data
+## Installation and Setup
 
-## 📁 Project Structure
+1. Clone the repository to your local machine.
+2. Obtain a standard API key from WeatherAPI.
+3. Open `index.html` in a web browser.
+4. Input your API key within the application settings to begin data retrieval.
 
-```
-weather-app/
-├── index.html    # Main HTML structure
-├── style.css     # Complete styling & animations
-├── app.js        # API logic & rendering
-└── README.md     # This file
-```
+## Project Structure
 
-## 📄 License
-
-MIT License — feel free to use and modify.
+* index.html: Document structure and accessibility definitions.
+* style.css: Global design system, adaptive themes, and animation keyframes.
+* app.js: Core logic, API communication, and dynamic DOM manipulation.
