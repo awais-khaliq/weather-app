@@ -14,7 +14,7 @@ SkyPulse serves as a streamlined interface for environmental data retrieval, uti
 * Long-Term Outlook: A 3-day overview highlighting expected daily extremes and condition trends.
 * Astronomical Data: Accurate calculations for sunrise, sunset, and lunar phases.
 * Adaptive Environment Engine: A dynamic CSS background system that adjusts color palettes and particle effects in response to specific weather states (Rain, Snow, Thunder, etc.).
-* Responsive Design: Optimized for both desktop and mobile viewports with a focus on dark-mode glassmorphism.
+* Responsive Design: Optimized for both desktop and mobile viewports with a frosted glassmorphism interface.
 
 ## Technical Implementation
 
